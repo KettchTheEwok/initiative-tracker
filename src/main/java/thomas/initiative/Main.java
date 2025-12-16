@@ -1,3 +1,5 @@
+package thomas.initiative;
+
 // import static org.junit.jupiter.api.Assertions.assertEquals;
 
 // import org.junit.jupiter.api.Test;
@@ -12,7 +14,6 @@ public class Main {
   public static void main(String[] args) {
     List<RpgCharacter> encounter = new ArrayList<RpgCharacter>();
 
-    List<RpgCharacter> party = new ArrayList<RpgCharacter>();
     
     //List<RpgCharacter> party = new ArrayList<RpgCharacter>();
     //Characters in party
@@ -21,17 +22,12 @@ public class Main {
     RpgCharacter balin = new RpgCharacter("Balin", 0);
     RpgCharacter lordV = new RpgCharacter("Lord Valkren", 0);
     
-    party.add(alric);
-    party.add(senorI);
-    party.add(balin);
-    party.add(lordV);
+
+    List<RpgCharacter> party = List.of(
+      alric, senorI, balin, lordV);
     
     RpgCharacter randomKolbold1 = new RpgCharacter("Random Kolbold 1", 0);
 
-    party.add(alric);
-    party.add(senorI);
-    party.add(balin);
-    party.add(lordV);
     encounter.addAll(party);
     encounter.add(randomKolbold1);
 

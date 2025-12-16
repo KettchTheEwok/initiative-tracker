@@ -1,5 +1,5 @@
-package thomas.initiative;
-import thomas.initiative.Rolls;
+package kettch.initiative;
+
 /**
  * A character in an RPG.
  * 

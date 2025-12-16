@@ -1,4 +1,4 @@
-package thomas.initiative;
+package kettch.initiative;
 
 import java.util.Random;
 

@@ -1,11 +1,9 @@
 // import static org.junit.jupiter.api.Assertions.assertEquals;
 
 // import org.junit.jupiter.api.Test;
-import java.util.Random;
+package kettch.initiative;
 import java.util.List;
 import java.util.ArrayList;
-import thomas.initiative.RpgCharacter;
-import thomas.initiative.Rolls;
 
 public class Main {
   

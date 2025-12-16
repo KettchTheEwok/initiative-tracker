@@ -85,7 +85,7 @@ author = "agent"
 
 [[workflows.workflow.tasks]]
 task = "shell.exec"
-args = "mvn compile exec:java -Dexec.mainClass=\"thomas.initiative.Main\" -q"
+args = "mvn compile exec:java -Dexec.mainClass=\"kettch.initiative.Main\" -q"
 
 [workflows.workflow.metadata]
 outputType = "console"

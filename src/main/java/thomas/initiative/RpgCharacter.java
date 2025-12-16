@@ -16,7 +16,7 @@ public class RpgCharacter {
     public int proficiencyBonus = 0;
 
     public RpgCharacter(String name, int proficiencyBonus) {
-      this.name = name;    
+      this.name = name + ": ";    
       this.proficiencyBonus = proficiencyBonus;
     }
 

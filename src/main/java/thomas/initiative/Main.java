@@ -1,5 +1,3 @@
-package thomas.initiative;
-
 // import static org.junit.jupiter.api.Assertions.assertEquals;
 
 // import org.junit.jupiter.api.Test;
@@ -33,7 +31,7 @@ public class Main {
 
     for (RpgCharacter character : encounter) {
       character.rollForInitiative();
-      System.out.println(character.name + ": " + character.initiativeRoll);
+      System.out.println(character.name + character.initiativeRoll);
     }
 
     // System.out.println(party);

@@ -10,8 +10,6 @@ public class Main {
   public static void main(String[] args) {
     List<RpgCharacter> encounter = new ArrayList<RpgCharacter>();
 
-    
-    //List<RpgCharacter> party = new ArrayList<RpgCharacter>();
     //Characters in party
     RpgCharacter alric = new RpgCharacter("Alric", 5);
     RpgCharacter senorI = new RpgCharacter("Señor Incompetons", 0);

@@ -27,6 +27,9 @@ public class RpgCharacter {
     public void rollForInitiative(){
       initiativeRoll = Rolls.roll20() + this.proficiencyBonus;
     }
+    public void printInitiativeRoll(){
+        System.out.println(this.name + this.initiativeRoll);
+    }
 
     public String toString(){
       return "Character(name = " + this.name + ", roll = " + this.initiativeRoll + ", proficiency bonus = " + this.proficiencyBonus + ")";

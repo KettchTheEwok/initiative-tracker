@@ -25,12 +25,8 @@ public class Main {
     encounter.addAll(party);
     encounter.add(randomKolbold1);
 
-    for (RpgCharacter character : encounter) {
-      character.rollForInitiative();
-      System.out.println(character.name + character.initiativeRoll);
-    }
-
-    // System.out.println(party);
+    InitiativeOrder.calculateOrder(encounter);
+    InitiativeOrder.printOrder(encounter);
 
   }
 
